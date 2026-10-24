@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		095B66B330879AC3009201CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 095B669D30879AC3009201CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095B66A430879AC3009201CC;
+			remoteInfo = Untilia;
+		};
+		095B66BD30879AC3009201CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 095B669D30879AC3009201CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095B66A430879AC3009201CC;
+			remoteInfo = Untilia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		095B66A530879AC3009201CC /* Untilia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Untilia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		095B66B230879AC3009201CC /* UntiliaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UntiliaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		095B66BC30879AC3009201CC /* UntiliaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UntiliaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		095B66A730879AC3009201CC /* Untilia */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Untilia;
+			sourceTree = "<group>";
+		};
+		095B66B530879AC3009201CC /* UntiliaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UntiliaTests;
+			sourceTree = "<group>";
+		};
+		095B66BF30879AC3009201CC /* UntiliaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UntiliaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		095B66A230879AC3009201CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		095B66AF30879AC3009201CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		095B66B930879AC3009201CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095B669C30879AC3009201CC = {
+			isa = PBXGroup;
+			children = (
+				095B66A730879AC3009201CC /* Untilia */,
+				095B66B530879AC3009201CC /* UntiliaTests */,
+				095B66BF30879AC3009201CC /* UntiliaUITests */,
+				095B66A630879AC3009201CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		095B66A630879AC3009201CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				095B66A530879AC3009201CC /* Untilia.app */,
+				095B66B230879AC3009201CC /* UntiliaTests.xctest */,
+				095B66BC30879AC3009201CC /* UntiliaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		095B66A430879AC3009201CC /* Untilia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095B66C430879AC3009201CC /* Build configuration list for PBXNativeTarget "Untilia" */;
+			buildPhases = (
+				095B66A130879AC3009201CC /* Sources */,
+				095B66A230879AC3009201CC /* Frameworks */,
+				095B66A330879AC3009201CC /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				095B66A730879AC3009201CC /* Untilia */,
+			);
+			name = Untilia;
+			productName = Untilia;
+			productReference = 095B66A530879AC3009201CC /* Untilia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		095B66B130879AC3009201CC /* UntiliaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095B66C730879AC3009201CC /* Build configuration list for PBXNativeTarget "UntiliaTests" */;
+			buildPhases = (
+				095B66AE30879AC3009201CC /* Sources */,
+				095B66AF30879AC3009201CC /* Frameworks */,
+				095B66B030879AC3009201CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				095B66B430879AC3009201CC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				095B66B530879AC3009201CC /* UntiliaTests */,
+			);
+			name = UntiliaTests;
+			productName = UntiliaTests;
+			productReference = 095B66B230879AC3009201CC /* UntiliaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		095B66BB30879AC3009201CC /* UntiliaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095B66CA30879AC3009201CC /* Build configuration list for PBXNativeTarget "UntiliaUITests" */;
+			buildPhases = (
+				095B66B830879AC3009201CC /* Sources */,
+				095B66B930879AC3009201CC /* Frameworks */,
+				095B66BA30879AC3009201CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				095B66BE30879AC3009201CC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				095B66BF30879AC3009201CC /* UntiliaUITests */,
+			);
+			name = UntiliaUITests;
+			productName = UntiliaUITests;
+			productReference = 095B66BC30879AC3009201CC /* UntiliaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		095B669D30879AC3009201CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					095B66A430879AC3009201CC = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					095B66B130879AC3009201CC = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 095B66A430879AC3009201CC;
+					};
+					095B66BB30879AC3009201CC = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 095B66A430879AC3009201CC;
+					};
+				};
+			};
+			buildConfigurationList = 095B66A030879AC3009201CC /* Build configuration list for PBXProject "Untilia" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 095B669C30879AC3009201CC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 095B66A630879AC3009201CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				095B66A430879AC3009201CC /* Untilia */,
+				095B66B130879AC3009201CC /* UntiliaTests */,
+				095B66BB30879AC3009201CC /* UntiliaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		095B66A330879AC3009201CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		095B66B030879AC3009201CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		095B66BA30879AC3009201CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		095B66A130879AC3009201CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		095B66AE30879AC3009201CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		095B66B830879AC3009201CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		095B66B430879AC3009201CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 095B66A430879AC3009201CC /* Untilia */;
+			targetProxy = 095B66B330879AC3009201CC /* PBXContainerItemProxy */;
+		};
+		095B66BE30879AC3009201CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 095B66A430879AC3009201CC /* Untilia */;
+			targetProxy = 095B66BD30879AC3009201CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		095B66C230879AC3009201CC /* Debug configuration for PBXProject "Untilia" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B438RR5CVP;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		095B66C330879AC3009201CC /* Release configuration for PBXProject "Untilia" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = B438RR5CVP;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		095B66C530879AC3009201CC /* Debug configuration for PBXNativeTarget "Untilia" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = B438RR5CVP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Configuration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Untilia;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.olivier.untilia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		095B66C630879AC3009201CC /* Release configuration for PBXNativeTarget "Untilia" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = B438RR5CVP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Configuration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Untilia;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.olivier.untilia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		095B66C830879AC3009201CC /* Debug configuration for PBXNativeTarget "UntiliaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = B438RR5CVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.olivier.DaysLeftLuna5.6H.DaysLeftLuna5-6HTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Untilia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Untilia";
+			};
+			name = Debug;
+		};
+		095B66C930879AC3009201CC /* Release configuration for PBXNativeTarget "UntiliaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = B438RR5CVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.olivier.DaysLeftLuna5.6H.DaysLeftLuna5-6HTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Untilia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Untilia";
+			};
+			name = Release;
+		};
+		095B66CB30879AC3009201CC /* Debug configuration for PBXNativeTarget "UntiliaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = B438RR5CVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.olivier.DaysLeftLuna5.6H.DaysLeftLuna5-6HUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Untilia;
+			};
+			name = Debug;
+		};
+		095B66CC30879AC3009201CC /* Release configuration for PBXNativeTarget "UntiliaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = B438RR5CVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.olivier.DaysLeftLuna5.6H.DaysLeftLuna5-6HUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Untilia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095B66A030879AC3009201CC /* Build configuration list for PBXProject "Untilia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095B66C230879AC3009201CC /* Debug configuration for PBXProject "Untilia" */,
+				095B66C330879AC3009201CC /* Release configuration for PBXProject "Untilia" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		095B66C430879AC3009201CC /* Build configuration list for PBXNativeTarget "Untilia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095B66C530879AC3009201CC /* Debug configuration for PBXNativeTarget "Untilia" */,
+				095B66C630879AC3009201CC /* Release configuration for PBXNativeTarget "Untilia" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		095B66C730879AC3009201CC /* Build configuration list for PBXNativeTarget "UntiliaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095B66C830879AC3009201CC /* Debug configuration for PBXNativeTarget "UntiliaTests" */,
+				095B66C930879AC3009201CC /* Release configuration for PBXNativeTarget "UntiliaTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		095B66CA30879AC3009201CC /* Build configuration list for PBXNativeTarget "UntiliaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095B66CB30879AC3009201CC /* Debug configuration for PBXNativeTarget "UntiliaUITests" */,
+				095B66CC30879AC3009201CC /* Release configuration for PBXNativeTarget "UntiliaUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 095B669D30879AC3009201CC /* Project object */;
+	validationLevel = 1;
+}

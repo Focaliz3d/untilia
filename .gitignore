@@ -1,0 +1,14 @@
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcarchive
+*.xcresult
+*.ipa
+*.dSYM/
+*.mobileprovision
+*.p12
+*.p8
+AppStoreAssets/_capture-check/
+AppStoreAssets/*.zip
